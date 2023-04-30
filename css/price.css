@@ -1,0 +1,31 @@
+/* Price block */
+
+.item__label_price {
+  position: absolute;
+  display: flex;
+  width: 35px;
+  height: 25px;
+  top: 20px;
+  left: 120px;
+  flex: 0 0 48px;
+
+  background: #E17B41;
+  border-radius: 10px;
+}
+
+.item__text_price {
+  position: relative;
+  width: 65px;
+  text-align: center;
+  top: -20px;
+
+
+
+  font-family: 'Oleo Script Swash Caps', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+
+  color: #FFFFFF;
+}

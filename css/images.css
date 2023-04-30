@@ -1,0 +1,17 @@
+/* Images */
+
+.image_coffee {
+  position: absolute;
+  width: 75px;
+  height: 85px;
+  left: 44px;
+  top: 45px;
+}
+
+.image_tea {
+  position: absolute;
+  width: 80px;
+  height: 90px;
+  left: 45px;
+  top: 45px;
+}

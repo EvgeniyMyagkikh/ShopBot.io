@@ -1,0 +1,59 @@
+body {
+  position: relative;
+  width: 370px;
+  height: 932px;
+  background: linear-gradient(90deg, #3A4EBB -10.96%, rgba(10, 16, 48, 0) 100%);
+}
+
+.container {
+  max-width: 400px;
+}
+
+@font-face {
+  font-family: 'Kaushan Script';
+  src: url('fonts/KaushanScript-Regular.ttf') format("truetype");
+}
+
+.title {
+  position: absolute;
+  width: 301px;
+  height: 63px;
+  left: 66px;
+  top: -20px;
+  font-family: 'Kaushan Script', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 90px;
+
+  color: #FFFFFF;
+
+  text-shadow: 4px 4px #4585E6;
+}
+
+@font-face {
+  font-family: 'Oleo Script Swash Caps';
+  src: url('css/fonts/KaushanScript-Regular.ttf') format("truetype");
+}
+
+.average-price_container{
+  position: absolute;
+  width: 35px;
+  height: 25px;
+  left: 180px;
+  top: 10px;
+
+  background: #E17B41;
+  border-radius: 10px;
+}
+
+.average-price_text{
+  text-align: center;
+  margin-top: 5px;
+  font-family: 'Oleo Script Swash Caps', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  color: #FFFFFF;
+}

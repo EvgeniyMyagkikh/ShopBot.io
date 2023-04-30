@@ -1,0 +1,36 @@
+/* Card titles */
+
+@font-face {
+  font-family: 'Oleo Script Swash Caps';
+  src: url('css/fonts/KaushanScript-Regular.ttf') format("truetype");
+}
+
+.item__title {
+  text-align: center;
+  align-self: center;
+  position: relative;
+  width: 68px;
+  height: 19px;
+  top: -3px;
+
+  font-family: 'Oleo Script Swash Caps', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+
+  color: #FFFFFF;
+}
+
+.title_mokka {
+  margin-left: -25px;
+}
+
+.title_cappuccino {
+  margin-left: -3px;
+}
+
+.title_americano {
+  margin-left: -20px;
+}
+

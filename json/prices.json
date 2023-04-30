@@ -1,0 +1,43 @@
+{
+  "item cappuccino": {
+    "S": 110,
+    "M": 150,
+    "L": 170
+  },
+  "item latte": {
+    "S": 110,
+    "M": 150,
+    "L": 170
+  },
+  "item raf": {
+    "S": 110,
+    "M": 170,
+    "L": 210
+  },
+  "item mokka": {
+    "S": 150,
+    "M": 180,
+    "L": 220
+  },
+  "item americano": {
+    "S": 95,
+    "M": 140
+  },
+  "item espresso": {
+    "S": 95,
+    "M": 140
+  },
+  "item flatwhite": {
+    "S": 150
+  },
+  "item cacao": {
+    "S": 115,
+    "M": 145,
+    "L": 170
+  },
+  "item tea": {
+    "S": 95,
+    "M": 95,
+    "L": 95
+  }
+}

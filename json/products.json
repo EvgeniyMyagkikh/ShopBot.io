@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "Капучино",
+    "class": "cappuccino",
+    "img": ""
+  },
+  {
+    "id": 2,
+    "title": "Латте",
+    "class": "latte",
+    "img": ""
+  },
+  {
+    "id": 3,
+    "title": "Раф",
+    "class": "raf",
+    "img": ""
+  },
+  {
+    "id": 4,
+    "title": "Моккачино",
+    "class": "mokka",
+    "img": ""
+  },
+  {
+    "id": 5,
+    "title": "Какао",
+    "class": "cacao",
+    "img": ""
+  }
+]
+
