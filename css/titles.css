@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Oleo Script Swash Caps';
-  src: url('css/fonts/KaushanScript-Regular.ttf') format("truetype");
+  src: url('fonts/KaushanScript-Regular.ttf') format("truetype");
 }
 
 .item__title {
