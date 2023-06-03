@@ -16,3 +16,23 @@
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
+
+@media (max-width: 1025px) and (min-width: 620px){
+  .products {
+    margin-left: 100px;
+    gap: 40px;
+    grid-template-columns: repeat(4, minmax(160px, 1fr));
+  }
+  .title{
+    margin-left: 300px;
+  }
+  .average-price_container{
+    margin-left: 290px;
+  }
+}
+
+@media (max-width: 400px) {
+  .products {
+    gap: 0;
+  }
+}
