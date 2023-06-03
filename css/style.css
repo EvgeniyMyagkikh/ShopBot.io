@@ -1,12 +1,12 @@
 body {
   position: relative;
-  width: 370px;
-  height: 932px;
+  width: 1080px;
+  height: 720px;
   background: linear-gradient(90deg, #3A4EBB -10.96%, rgba(10, 16, 48, 0) 100%);
 }
 
 .container {
-  max-width: 400px;
+  max-width: 1200px;
 }
 
 @font-face {
@@ -15,11 +15,9 @@ body {
 }
 
 .title {
-  position: absolute;
   width: 301px;
   height: 63px;
-  left: 66px;
-  top: -20px;
+  margin-left: 40%;
   font-family: 'Kaushan Script', serif;
   font-style: normal;
   font-weight: 400;
@@ -40,8 +38,8 @@ body {
   position: absolute;
   width: 35px;
   height: 25px;
-  left: 180px;
-  top: 10px;
+  margin-left: 47%;
+  top: 15%;
 
   background: #E17B41;
   border-radius: 10px;

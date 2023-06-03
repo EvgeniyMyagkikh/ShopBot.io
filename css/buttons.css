@@ -1,6 +1,5 @@
 /* Buttons */
 
-
 .buttons {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(35px, 1fr));
@@ -72,7 +71,7 @@
 .btn__text_buy{
   text-align: center;
   font-size: 16px;
-  margin-top: 4px;
+  margin-top: 1px;
 }
 
 .btn__buy._active{
