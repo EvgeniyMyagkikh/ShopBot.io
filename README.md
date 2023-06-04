@@ -1,4 +1,4 @@
-# Проект Telegram-магазина Botshop
+# Telegram-магазин Botshop
 
 Botshop - бот телеграм с web-app приложением для заказа кофе.
 
