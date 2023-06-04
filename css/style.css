@@ -2,7 +2,8 @@ body {
   position: relative;
   width: 370px;
   height: 932px;
-  background: linear-gradient(90deg, #3A4EBB -10.96%, rgba(10, 16, 48, 0) 100%);
+  /*background: linear-gradient(90deg, #3A4EBB -10.96%, rgba(10, 16, 48, 0) 100%);*/
+  background: radial-gradient(150.27% 80.85% at 48.26% 26.23%, #1C81DE 58.85%, rgba(28, 129, 222, 0) 100%)
 }
 
 .container {
