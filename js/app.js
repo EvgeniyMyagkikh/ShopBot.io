@@ -108,7 +108,7 @@ function btn_buy_click(this_btn) {
                 let counter_active_btn_buy;
 
                 button_buy.forEach(function (i){
-                    if (i.classList.contains(("_active"))){
+                    if (i.classList.contains("_active")){
                         counter_active_btn_buy += 1
                     }
                 })
