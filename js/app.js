@@ -76,7 +76,7 @@ function btn_buy_click(this_btn) {
     const text_price_item = button_container.parentElement.querySelector(".item__text_price");
     const average_price = document.querySelector(".average-price_text");
     const syrup_container = button_container.parentElement.querySelector(".syrup_select_form");
-    const buttons_buy = button_container.querySelectorAll(".btn__buy");
+    const buttons_buy = button_container.parentElement.parentElement.querySelectorAll(".btn__buy");
 
     buttons.forEach(function (i) {
         if (i.classList.contains("_active")) {
