@@ -76,6 +76,7 @@ function btn_buy_click(this_btn) {
     const text_price_item = button_container.parentElement.querySelector(".item__text_price");
     const average_price = document.querySelector(".average-price_text");
     const syrup_container = button_container.parentElement.querySelector(".syrup_select_form");
+    const button_buy = button_container.querySelector(".btn__buy");
 
     buttons.forEach(function (i) {
         if (i.classList.contains("_active")) {
@@ -103,7 +104,18 @@ function btn_buy_click(this_btn) {
                 syrup_container.classList.remove("_active");
 
                 sessionStorage.removeItem(item_title);
-                tg.MainButton.hide();
+
+                let counter_active_btn_buy;
+
+                button_buy.forEach(function (i){
+                    if (i.classList.contains(("_active"))){
+                        counter_active_btn_buy += 1
+                    }
+                })
+
+                if (counter_active_btn_buy === 0){
+                    tg.MainButton.hide();
+                }
 
                 // Убираем класс _active с кнопок размера
                 buttons.forEach(function (j) {
