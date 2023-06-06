@@ -113,7 +113,6 @@ function btn_buy_click(this_btn) {
                         counter_active_btn_buy += 1
                     }
                 })
-                alert(counter_active_btn_buy);
 
                 if (counter_active_btn_buy === 0){
                     tg.MainButton.hide();
