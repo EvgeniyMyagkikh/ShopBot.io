@@ -76,7 +76,7 @@ function btn_buy_click(this_btn) {
     const text_price_item = button_container.parentElement.querySelector(".item__text_price");
     const average_price = document.querySelector(".average-price_text");
     const syrup_container = button_container.parentElement.querySelector(".syrup_select_form");
-    const button_buy = button_container.querySelector(".btn__buy");
+    const buttons_buy = button_container.querySelectorAll(".btn__buy");
 
     buttons.forEach(function (i) {
         if (i.classList.contains("_active")) {
@@ -95,7 +95,6 @@ function btn_buy_click(this_btn) {
                 sessionStorage.setItem(item_title, JSON.stringify(card_info));
                 show_btn();
             } else {
-
                 this_btn.querySelector(".btn__text_buy").textContent = "Добавить";
                 average_price.textContent = String(Number(average_price.textContent) - Number(text_price_item.textContent));
 
@@ -103,19 +102,23 @@ function btn_buy_click(this_btn) {
                 syrup_container.value = "Нет";
                 syrup_container.classList.remove("_active");
 
+
                 sessionStorage.removeItem(item_title);
 
-                let counter_active_btn_buy;
+                let counter_active_btn_buy = 0;
 
-                button_buy.forEach(function (i){
+
+                buttons_buy.forEach(function (i){
                     if (i.classList.contains("_active")){
                         counter_active_btn_buy += 1
                     }
                 })
+                alert(counter_active_btn_buy);
 
                 if (counter_active_btn_buy === 0){
                     tg.MainButton.hide();
                 }
+
 
                 // Убираем класс _active с кнопок размера
                 buttons.forEach(function (j) {
