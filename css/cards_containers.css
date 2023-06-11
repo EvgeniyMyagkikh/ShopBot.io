@@ -16,21 +16,41 @@
     border-radius: 10px;
 }
 
-.item_cappuccino{
+.cappuccino{
     background: url("../img/cappucino.jpeg") 10% 10%;
     background-size: 200px 300px;
 }
-.item_latte{
+.latte{
     background: url("../img/latte.jpeg") 10% 40%;
     background-size: 200px 300px;
 }
-.item_raf{
+.raf{
     background: url("../img/raf.jpeg") 20% 120%;
     background-size: 200px 300px;
 }
-.item_mokka{
+.mokka{
     background: url("../img/mokka.jpeg") 10% -60%;
     background-size: 200px 300px;
+}
+.cacao{
+    background: url("../img/cacao.jpeg") 40% 120%;
+    background-size: 200px 300px;
+}
+.flatwhite{
+    background: url("../img/flatwhite.jpeg") 10% 10%;
+    background-size: 200px 300px;
+}
+.americano{
+    background: url("../img/americano.jpeg") 10% 10%;
+    background-size: 200px 300px;
+}
+.tea{
+    background: url("../img/tea.jpeg") 10% 10%;
+    background-size: 200px 300px;
+}
+.espresso{
+    background: url("../img/espresso.jpeg") 60% 30%;
+    background-size: 350px 250px;
 }
 
 @media (max-width: 1025px) and (min-width: 620px) {

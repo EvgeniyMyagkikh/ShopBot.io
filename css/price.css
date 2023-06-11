@@ -17,9 +17,10 @@
 
 .item__text_price {
   position: absolute;
+  text-align: center;
   width: 21px;
   height: 10px;
-  left: 15px;
+  left: 7px;
   top: -15px;
 
   font-family: 'PP Neue Montreal', serif;

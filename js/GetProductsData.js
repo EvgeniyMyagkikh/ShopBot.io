@@ -11,7 +11,7 @@ async function getting_data() {
 
 function insert_data(products_data_array) {
   products_data_array.forEach(function (item) {
-    const html_product = `<article id="${item.id}" class="item item_${item.class}" xmlns="http://www.w3.org/1999/html">
+    const html_product = `<article id="${item.id}" class="item ${item.class}">
       <h5 class="item__title title_item title_${item.class}">${item.title}</h5>
       <div class="item__label_price">
         <h5 class="item__text_price">0</h5>
@@ -36,9 +36,8 @@ function insert_data(products_data_array) {
           </select>
         </label>
       </div>
+      <div class="buttons_container"></div>
       <div class="buttons">
-      <div class="buttons_container">
-      </div>
         <a onclick="btn_size_click(this)" class="btn__size" data-bid="S">
           <div class="btn__text_size">S</div>
         </a>
@@ -130,7 +129,7 @@ function insert_data(products_data_array) {
       </div>
     </article>`;
   const html_flatwhite = `<article id="8" class="item flatwhite">
-      <h5 class="item__title title_item title_flatwhite">Флэт Уайт</h5>
+      <h5 class="item__title title_item title_flatwhite">ФлэтУайт</h5>
       <div class="item__label_price">
         <h5 class="item__text_price">0</h5>
       </div>
