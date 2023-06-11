@@ -17,19 +17,19 @@
 }
 
 .item_cappuccino{
-    background: url("img/cappucino.jpeg") 10% 10%;
+    background: url("../img/cappucino.jpeg") 10% 10%;
     background-size: 200px 300px;
 }
 .item_latte{
-    background: url("/img/latte.jpeg") 10% 40%;
+    background: url("../img/latte.jpeg") 10% 40%;
     background-size: 200px 300px;
 }
 .item_raf{
-    background: url("/img/raf.jpeg") 20% 120%;
+    background: url("../img/raf.jpeg") 20% 120%;
     background-size: 200px 300px;
 }
 .item_mokka{
-    background: url("/img/mokka.jpeg") 10% -60%;
+    background: url("../img/mokka.jpeg") 10% -60%;
     background-size: 200px 300px;
 }
 
