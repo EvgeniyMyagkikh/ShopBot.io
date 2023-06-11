@@ -2,30 +2,32 @@
 
 .item__label_price {
   position: absolute;
-  display: flex;
   width: 35px;
   height: 25px;
-  top: 20px;
-  left: 120px;
-  flex: 0 0 48px;
+  left: 65px;
+  top: 50px;
 
-  background: #E17B41;
+  background: #FFFAF6;
   border-radius: 10px;
 }
 
+@font-face {
+  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
+}
+
 .item__text_price {
-  position: relative;
-  width: 65px;
-  text-align: center;
-  top: -21px;
+  position: absolute;
+  width: 21px;
+  height: 10px;
+  left: 15px;
+  top: -15px;
 
-
-
-  font-family: 'Oleo Script Swash Caps', serif;
+  font-family: 'PP Neue Montreal', serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 15px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  z-index: 1;
 
-  color: #FFFFFF;
+  color: #3D3D3D;
 }

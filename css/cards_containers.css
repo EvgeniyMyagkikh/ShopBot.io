@@ -16,6 +16,23 @@
     border-radius: 10px;
 }
 
+.item_cappuccino{
+    background: url("/img/cappucino.jpeg") 10% 10%;
+    background-size: 200px 300px;
+}
+.item_latte{
+    background: url("/img/latte.jpeg") 10% 40%;
+    background-size: 200px 300px;
+}
+.item_raf{
+    background: url("/img/raf.jpeg") 20% 120%;
+    background-size: 200px 300px;
+}
+.item_mokka{
+    background: url("/img/mokka.jpeg") 10% -60%;
+    background-size: 200px 300px;
+}
+
 @media (max-width: 1025px) and (min-width: 620px) {
     .products {
         margin-left: 100px;

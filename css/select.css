@@ -7,13 +7,13 @@
   box-sizing: border-box;
 
   position: absolute;
-  width: 120px;
-  height: 23px;
+  width: 127px;
+  height: 18px;
   left: 20px;
   top: 150px;
 
-  background: #E17B41;
-  color: #FFFFFF;
+  background: #FFFFFF;
+  color: #9F9B9B;
   padding: 0 28px;
 
   border-radius: 10px;
@@ -25,6 +25,9 @@
 }
 
 
+@font-face {
+  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
+}
 
 .syrup__text {
   width: 130px;
@@ -32,7 +35,7 @@
   left: 18px;
   top: -7px;
 
-  font-family: 'Oleo Script Swash Caps', serif;
+  font-family: 'PP Neue Montreal', serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
