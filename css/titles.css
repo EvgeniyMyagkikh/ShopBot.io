@@ -1,8 +1,7 @@
 /* Card titles */
 
 @font-face {
-  font-family: 'Oleo Script Swash Caps';
-  src: url('fonts/KaushanScript-Regular.ttf') format("truetype");
+  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
 }
 
 .item__title {
@@ -13,13 +12,13 @@
   height: 19px;
   top: -3px;
 
-  font-family: 'Oleo Script Swash Caps', serif;
+  font-family: 'PP Neue Montreal', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 17px;
 
-  color: #FFFFFF;
+  color: #3D3D3D;
 }
 
 .title_mokka {

@@ -2,7 +2,7 @@ body {
   position: relative;
   width: 370px;
   height: 932px;
-  background: #3A4EBB
+  background: #FFFAF6
 }
 
 .container {
@@ -10,50 +10,59 @@ body {
 }
 
 @font-face {
-  font-family: 'Kaushan Script';
-  src: url('fonts/KaushanScript-Regular.ttf') format("truetype");
+  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
 }
 
 .title {
   position: absolute;
-  width: 301px;
-  height: 63px;
-  left: 66px;
-  top: -20px;
-  font-family: 'Kaushan Script', serif;
+  width: 142px;
+  height: 24px;
+  left: 137px;
+  top: 50px;
+
+  font-family: 'PP Neue Montreal', serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 90px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
 
-  color: #FFFFFF;
-
-  text-shadow: 4px 4px #4585E6;
+  color: #3D3D3D;
 }
 
 @font-face {
-  font-family: 'Oleo Script Swash Caps';
-  src: url('fonts/KaushanScript-Regular.ttf') format("truetype");
+  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
 }
 
-.average-price_container{
+.average-price_sum_text{
   position: absolute;
-  width: 35px;
-  height: 25px;
-  left: 180px;
-  top: 10px;
+  width: 114px;
+  height: 15px;
+  left: 140px;
+  top: 100px;
 
-  background: #E17B41;
-  border-radius: 10px;
+  font-family: 'PP Neue Montreal', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+
+  color: #A2A2A2;
+
 }
 
 .average-price_text{
-  text-align: center;
-  margin-top: 5px;
-  font-family: 'Oleo Script Swash Caps', serif;
+  position: absolute;
+  width: 114px;
+  height: 15px;
+  left: 220px;
+  top: 100px;
+
+  font-family: 'PP Neue Montreal', serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 15px;
-  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+
+  color: #A2A2A2;
 }
+
