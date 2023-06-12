@@ -5,7 +5,7 @@ tg.expand();
 sessionStorage.clear();
 
 tg.MainButton.textColor = "#FFFFFF";
-tg.MainButton.color = "#4169E1";
+tg.MainButton.color = "#CBC5BC";
 
 function show_btn() {
     tg.MainButton.setText("Перейти к оплате");

@@ -10,7 +10,7 @@
   position: absolute;
   width: 160px;
   height: 78px;
-  left: 0px;
+  left: 0;
   top: 175px;
 
   background: #FFFFFF;
@@ -22,7 +22,7 @@
   margin-top: 113px;
   margin-left: 22px;
 
-  background: #FFFAF6;
+  background: #EDDED2;
   color: #3D3D3D;
   border-radius: 10px;
   width: 35px;
@@ -44,7 +44,7 @@
 }
 
 .btn__size._active{
-  background:#D1D0D0;
+  background:#CBC5BC;
 }
 
 .btn__size._active .buttons{
@@ -74,7 +74,7 @@
   left: 15px;
   top: 218px;
 
-  background:  #FFFAF6;
+  background: #EDDED2;
   border-radius: 10px;
   color: #3D3D3D;
   font-family: 'PP Neue Montreal', serif;
@@ -90,6 +90,6 @@
 }
 
 .btn__buy._active{
-  background: #D2CFCF;
+  background: #CBC5BC;
   color: #FFFFFF;
 }
