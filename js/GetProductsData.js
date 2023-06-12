@@ -79,6 +79,7 @@ function insert_data(products_data_array) {
           </select>
         </label>
       </div>
+      <div class="buttons_container"></div>
       <div class="buttons">
         <a onclick="btn_size_click(this)" class="btn__size two_size_s" data-bid="S">
           <div class="btn__text_size">S</div>
@@ -116,6 +117,7 @@ function insert_data(products_data_array) {
           </select>
         </label>
       </div>
+      <div class="buttons_container"></div>
       <div class="buttons">
         <a onclick="btn_size_click(this)" class="btn__size two_size_s" data-bid="S">
           <div class="btn__text_size">S</div>
@@ -153,6 +155,7 @@ function insert_data(products_data_array) {
           </select>
         </label>
       </div>
+      <div class="buttons_container"></div>
       <div class="buttons">
       <a onclick="btn_size_click(this)" class="btn__size one_size" data-bid="S">
           <div class="btn__text_size">S</div>
@@ -174,6 +177,7 @@ function insert_data(products_data_array) {
           </select>
         </label>
       </div>
+      <div class="buttons_container"></div>
       <div class="buttons">
       <a onclick="btn_size_click(this)" class="btn__size one_size" data-bid="L">
           <div class="btn__text_size">L</div>
