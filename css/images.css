@@ -1,17 +1,46 @@
-/* Images */
+/* Фон карточек */
 
-.image_coffee {
-  position: absolute;
-  width: 75px;
-  height: 85px;
-  left: 44px;
-  top: 45px;
+.cappuccino {
+  background: url("../img/cappucino.jpeg") 10% 10%;
+  background-size: 200px 300px;
 }
 
-.image_tea {
-  position: absolute;
-  width: 80px;
-  height: 90px;
-  left: 45px;
-  top: 45px;
+.latte {
+  background: url("../img/latte.jpeg") 10% 40%;
+  background-size: 200px 300px;
+}
+
+.raf {
+  background: url("../img/raf.jpeg") 20% 120%;
+  background-size: 200px 300px;
+}
+
+.mokka {
+  background: url("../img/mokka.jpeg") 10% -60%;
+  background-size: 200px 300px;
+}
+
+.cacao {
+  background: url("../img/cacao.jpeg") 40% 120%;
+  background-size: 200px 300px;
+}
+
+.flatwhite {
+  background: url("../img/flatwhite.jpeg") 10% 10%;
+  background-size: 200px 300px;
+}
+
+.americano {
+  background: url("../img/americano.jpeg") 10% 10%;
+  background-size: 200px 300px;
+}
+
+.tea {
+  background: url("../img/tea.jpeg") 10% 10%;
+  background-size: 200px 300px;
+}
+
+.espresso {
+  background: url("../img/espresso.jpeg") 60% 30%;
+  background-size: 350px 250px;
 }
