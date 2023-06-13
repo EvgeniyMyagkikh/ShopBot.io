@@ -1,4 +1,8 @@
 /* Syrup block */
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
+}
 
 .syrup_select_form{
   -moz-appearance: none;
@@ -24,13 +28,6 @@
 .syrup_select_form._active{
   display: none;
 }
-
-
-@font-face {
-  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
-}
-
-
 
 select{
   text-align-last: center;

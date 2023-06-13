@@ -1,4 +1,7 @@
-@import "../css/fonts";
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
+}
 
 body {
   position: relative;
@@ -9,10 +12,6 @@ body {
 
 .container {
   max-width: 400px;
-}
-
-@font-face {
-  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
 }
 
 .title {
@@ -29,10 +28,6 @@ body {
   line-height: 30px;
 
   color: #3D3D3D;
-}
-
-@font-face {
-  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
 }
 
 .average-price_sum_text{

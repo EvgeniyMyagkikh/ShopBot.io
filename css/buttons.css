@@ -1,5 +1,8 @@
 /* Buttons */
-
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
+}
 
 .buttons {
   display: grid;
@@ -59,10 +62,6 @@
   text-align: center;
   font-size: 16px;
   margin-top: 4px;
-}
-
-@font-face {
-  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
 }
 
 .btn__buy {

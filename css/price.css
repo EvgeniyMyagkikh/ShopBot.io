@@ -1,4 +1,8 @@
 /* Price block */
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
+}
 
 .item__label_price {
   position: absolute;
@@ -9,10 +13,6 @@
 
   background: #FFFAF6;
   border-radius: 10px;
-}
-
-@font-face {
-  src: url('fonts/PPNeueMontreal-Medium.otf') format("truetype");
 }
 
 .item__text_price {
