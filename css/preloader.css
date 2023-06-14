@@ -1,29 +1,30 @@
 .preloader{
     position: relative;
-    left: -10px;
+    left: 20px;
     margin-top: -1300px;
-    width: 420px;
-    height: 680px;
+    width: 355px;
+    height: 800px;
     background: url("../img/cacao.jpeg") 40% 50%;
     background-size: 600px 800px;
     z-index: 2;
     visibility: visible;
+    overflow-y: hidden;
 }
 
 .ellipse{
     position: absolute;
     width: 704px;
     height: 448px;
-    left: -100px;
-    top: -170px;
+    left: -160px;
+    top: -240px;
 
     background: url("../img/ellipse.svg");
 }
 
 
 .title-preloader{
-    margin-left: 50px;
-    margin-top:70px;
+    margin-left: -10px;
+    margin-top:40px;
 }
 
 .preloader._done{
