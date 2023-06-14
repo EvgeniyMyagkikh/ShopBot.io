@@ -1,0 +1,39 @@
+.preloader{
+    position: relative;
+    left: -10px;
+    margin-top: -1300px;
+    width: 420px;
+    height: 680px;
+    background: url("../img/cacao.jpeg") 40% 50%;
+    background-size: 600px 800px;
+    z-index: 2;
+    visibility: visible;
+}
+
+.ellipse{
+    position: absolute;
+    width: 704px;
+    height: 448px;
+    left: -100px;
+    top: -170px;
+
+    background: url("../img/ellipse.svg");
+}
+
+
+.title-preloader{
+    margin-left: 50px;
+    margin-top:70px;
+}
+
+.preloader._done{
+    opacity: 0;
+    visibility: hidden;
+}
+.preloader._done .ellipse{
+    visibility: hidden;
+}
+
+.preloader._done .title-preloader{
+    visibility: hidden;
+}
