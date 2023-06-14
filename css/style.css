@@ -10,39 +10,6 @@ body {
   background: #FFFAF6
 }
 
-.preloader{
-  position: relative;
-  left: -10px;
-  top: -10px;
-  width: 520px;
-  height: 780px;
-  background: url("../img/cacao.jpeg") 50% 60%;
-  background-size: 600px 800px;
-  z-index: 2;
-  overflow: hidden;
-}
-
-.ellipse{
-  position: absolute;
-  width: 704px;
-  height: 448px;
-  left: -100px;
-  top: -170px;
-
-  background: url("../img/ellipse.svg");
-}
-
-.title-preloader{
-  margin-left: 50px;
-  margin-top:70px;
-}
-
-
-
-
-
-
-
 .container {
   max-width: 400px;
 }
