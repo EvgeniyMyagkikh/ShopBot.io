@@ -24,15 +24,17 @@ body {
 
 .ellipse{
   position: absolute;
-  width: 820px;
-  height: 460px;
-  left: -130px;
-  top: -140px;
+  width: 704px;
+  height: 448px;
+  left: -100px;
+  top: -170px;
+
+  background: url("../img/ellipse.svg");
 }
 
 .title-preloader{
   margin-left: 50px;
-  margin-top:100px;
+  margin-top:70px;
 }
 
 
